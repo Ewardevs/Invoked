@@ -83,7 +83,7 @@ const Hero = () => {
       {/* Contenido superpuesto */}
       <div className="relative z-10 flex items-center h-full px-10">
         <div className="max-w-lg">
-          <h1 className="text-4xl font-bold">Ultimo Lanzado</h1>
+          <h1 className="text-4xl font-bold">Ultimo Lanzadoooo</h1>
           <h2 className="text-2xl text-orange-500 mt-2">Una nueva amiga</h2>
           <p className="mt-4">
             Senku es un joven extremadamente inteligente con un gran don para la
