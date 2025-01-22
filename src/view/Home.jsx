@@ -1,12 +1,19 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import Hero from "../components/Hero";
+import Carousel from "../components/Hero";
+import image1 from "../img/elfa.png"
+import image2 from "../img/Rim.png"
+import image3 from "../img/kael.png"
+
 
 const Home=()=>{
+
+    const images = [image1, image2, image3];
+
     return(
         <>
         <NavBar/>
-        <Hero/>
+        <Carousel interval={4000} />
         </>
     )
 }
