@@ -97,14 +97,14 @@ const Carousel = ({ interval = 5000 }) => {
             </button>
 
             {/* Indicadores */}
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            <div className="absolute bottom-[15%] left-1/2 transform -translate-x-1/2 flex space-x-2">
                 {images.map((_, index) => (
                     <button
                         key={index}
                         className={`w-3 h-3 rounded-full ${
                             currentIndex - 1 === index
-                                ? "bg-white"
-                                : "bg-white/50"
+                                ? "bg-black"
+                                : "bg-black/50"
                         }`}
                         onClick={() => setCurrentIndex(index + 1)}
                     ></button>
