@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
     return (
-        <nav className="flex flex-row justify-between items-center mx-24 max-w-[100wh] py-4">
+        <nav className="text-yellow-50 flex flex-row justify-between items-center mx-24 max-w-[100wh] py-4">
             {/* Logo */}
             <h1 className="text-2xl font-bold">INVOKED</h1>
 
