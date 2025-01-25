@@ -14,7 +14,7 @@ const Home=()=>{
     return(
         <>
         <NavBar/>
-        <Carousel interval={4000} />
+        <Carousel interval={5000} />
         <Main/>
         </>
     )

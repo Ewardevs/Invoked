@@ -12,12 +12,12 @@ import React, { useState, useEffect } from "react";
 
 const Carousel = ({ interval = 5000 }) => {
     const images = [
+        { image: image6, tipo: "Center" },
         { image: image1, tipo: "Right" },
         { image: image2, tipo: "Left" },
         { image: image3, tipo: "Center" },
         { image: image4, tipo: "Right" },
         { image: image5, tipo: "Center" },
-        { image: image6, tipo: "Center" },
     ];
 
     const [currentIndex, setCurrentIndex] = useState(1); // Comienza en el primer índice real
@@ -59,10 +59,10 @@ const Carousel = ({ interval = 5000 }) => {
     };
 
     return (
-        <div className="relative w-full h-[800px] overflow-hidden">
+        <div className="relative w-full h-[800px] overflow-hidden ">
             {/* Contenedor de imágenes */}
             <div
-                className="flex transition-transform duration-700"
+                className="flex transition-transform duration-700 "
                 style={{
                     transform: `translateX(-${currentIndex * 100}%)`,
                     transition: isTransitioning ? "transform 0.7s ease" : "none",
